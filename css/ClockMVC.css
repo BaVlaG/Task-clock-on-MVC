@@ -1,0 +1,94 @@
+
+.field{
+	position:relative;
+	width:18em;
+	height:18em;
+	display:inline-block;
+	margin-left:2em;
+}
+
+.clock{
+	position:absolute;
+	width:100%;
+	height:100%;
+	border:blue solid 1px;
+	border-radius:50%;
+}
+
+#digital{
+	position:absolute;
+	border:green 1px solid;
+	min-width:15%;
+	left:42%;
+	top:25%;
+
+}
+
+.number{
+	position:absolute;
+	width:2em;
+	height:1em;
+	top:calc(50% - 0.5em);
+	left:calc(50% - 1em);
+	text-align:center;
+
+}
+
+#city{
+	position:absolute;
+	width:8em;
+	height:4em;
+	left:calc(50% - 4em);
+	top:60%;
+	text-align: center;
+	font-weight:bold;
+
+}
+
+#secHand{
+	position:absolute;
+	width:0.2em;
+	height:50%;
+	background-color: black;
+	margin-left:calc(50% - 0.1em);
+	top:5%;
+	transform-origin:50% 90%;
+}
+
+#minHand{
+	 position:absolute;
+	 width:0.4em;
+	 height:45%;
+	 background-color: fuchsia;
+	 transform-origin:50% 90%;
+	 top:10%;
+	 margin-left:calc(50% - 0.2em);
+ }
+
+#hoursHand{
+	position:absolute;
+	width:0.6em;
+	height:30%;
+	background-color: orangered;
+	transform-origin:50% 86%;
+	top:24%;
+	margin-left:calc(50% - 0.3em);
+}
+
+.buttonStart{
+	position: absolute;
+	left:30%;
+	bottom:-10%;
+	display:inline-block;
+	height:7%;
+	width:20%;
+}
+
+.buttonStop{
+	position: absolute;
+	left:50%;
+	bottom:-10%;
+	display:inline-block;
+	height:7%;
+	width:20%;
+}
